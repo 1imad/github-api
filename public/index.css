@@ -28,3 +28,31 @@ body{
     height: 30px;
     width: 100%;
 }
+
+.w-50-desktop{
+    width: 50%;
+}
+ 
+@media(max-width: 699px){
+    .w-100-mobile{
+        width: 100%;
+    }
+    .col-lg-4{
+        text-align: center;
+    }
+    .col-lg-8{
+        text-align: center;
+    }
+}
+
+@media(max-width: 1024px){
+    .w-100-mobile{
+        width: 100%;
+    }
+    .col-lg-4{
+        text-align: center;
+    }
+    .col-lg-8{
+        text-align: center;
+    }
+}
